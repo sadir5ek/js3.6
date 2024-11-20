@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+</head>
+<body>
+    <H1  class="text-4xl font-bold text-center">Список пользователей</H1>
+    <header>
+        <nav class="text-center text-3xl ">
+            <a href="../../index.html" class="hover:underline hover:text-green-600">users</a>
+            <a href="../todos/todos.html" class="hover:underline hover:text-green-600">todos</a>
+            <a href="../postc/post.html" class="hover:underline hover:text-green-600">posts</a>
+        </nav>
+    </header>
+    <div id="root" class="flex flex-wrap gap-[20px] justify-between w-[620px] m-auto "></div>
+    <script src="./user.js"></script>
+</body>
+</html>

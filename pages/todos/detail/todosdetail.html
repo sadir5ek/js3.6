@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+</head>
+<body>
+
+    <h1 class="text-4xl font-bold text-center">Информация о пользователей</h1>
+    <header>
+        <nav class="text-center text-3xl ">
+            <a href="" class="hover:underline hover:text-green-600">users</a>
+            <a href="../todos.html" class="hover:underline hover:text-green-600">todos</a>
+            <a href="" class="hover:underline hover:text-green-600">posts</a>
+        </nav>
+    </header>
+    <div id="todosdetail" class="w-[500px] m-auto text-center mt-[40px]">
+
+    </div>
+    <script src="./todosdetail.js"></script>
+</body>
+</html>
